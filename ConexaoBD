@@ -12,8 +12,7 @@ public class ConexaoBD {
 		if (instancia == null);
 			instancia = new ConexaoBD();
 			
-		}
-
+		
 		return instancia;
 	}
 
