@@ -1,0 +1,20 @@
+package singleton;
+
+public class ConexaoBD {
+	private static ConexaoBD instancia = null;
+		
+		private ConexaoBD() {
+			System.out.println("Conectado com o BD!");
+			
+		}
+		
+	public static ConexaoBD instanciar() {
+		if (instancia == null);
+			instancia = new ConexaoBD();
+			
+		}
+
+		return instancia;
+	}
+
+}
