@@ -1,0 +1,17 @@
+package singleton;
+
+public class Principal {
+	public static void main(String[]args) {
+		
+		ConexaoBD conexao1 = ConexaoBD.instanciar();
+		System.out.println(conexao1);
+		
+		ConexaoBD conexao2 = ConexaoBD.instanciar();
+		System.out.println(conexao2);
+		
+		ConexaoBD conexao3 = ConexaoBD.instanciar();
+		System.out.println(conexao3);
+		
+	}
+
+}
